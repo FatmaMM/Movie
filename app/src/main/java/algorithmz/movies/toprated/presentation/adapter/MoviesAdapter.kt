@@ -2,8 +2,8 @@ package algorithmz.movies.toprated.presentation.adapter
 
 import algorithmz.movies.BuildConfig
 import algorithmz.movies.R
-import algorithmz.movies.data.objctes.Movie
 import algorithmz.movies.toprated.domain.entities.Genre
+import algorithmz.movies.toprated.domain.entities.Movie
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View

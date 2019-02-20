@@ -1,4 +1,4 @@
-package algorithmz.movies.data.objctes
+package algorithmz.movies.moviedetails.domain.entities
 
 import com.google.gson.annotations.SerializedName
 

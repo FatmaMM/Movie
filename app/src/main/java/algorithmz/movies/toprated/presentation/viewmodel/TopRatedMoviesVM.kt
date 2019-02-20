@@ -1,8 +1,8 @@
 package algorithmz.movies.toprated.presentation.viewmodel
 
-import algorithmz.movies.data.objctes.Movie
 import algorithmz.movies.toprated.domain.entities.Genre
 import algorithmz.movies.toprated.domain.entities.GenreResult
+import algorithmz.movies.toprated.domain.entities.Movie
 import algorithmz.movies.toprated.domain.entities.TopRatedMoviesResult
 import algorithmz.movies.toprated.domain.interactor.GetTopRatedMoviesUseCase
 import android.arch.lifecycle.MutableLiveData
