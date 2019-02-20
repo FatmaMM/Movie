@@ -15,7 +15,8 @@
             android:theme="@style/AppTheme">
         <activity
                 android:name=".toprated.presentation.view.TopRatedActivity"
-                android:label="@string/top_rated">
+                android:label="@string/top_rated"
+                android:configChanges="orientation|screenSize">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -26,7 +27,8 @@
         </activity>
         <activity android:name="algorithmz.movies.moviedetails.presentation.view.MovieDetailsActivity"
                   android:parentActivityName=".toprated.presentation.view.TopRatedActivity"
-                  android:theme="@style/AppTheme.NoActionBar">
+                  android:theme="@style/AppTheme.NoActionBar"
+                  android:configChanges="orientation|screenSize">
             <meta-data
                     android:name="android.support.PARENT.ACTIVITY"
                     android:value=".toprated.presentation.view.TopRatedActivity"/>
