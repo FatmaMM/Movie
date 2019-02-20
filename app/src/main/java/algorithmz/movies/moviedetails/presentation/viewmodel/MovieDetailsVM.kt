@@ -1,6 +1,6 @@
 package algorithmz.movies.moviedetails.presentation.viewmodel
 
-import algorithmz.movies.data.objctes.Movie
+import algorithmz.movies.moviedetails.domain.entities.Movie
 import algorithmz.movies.moviedetails.domain.entities.Trailer
 import algorithmz.movies.moviedetails.domain.entities.TrailerResponse
 import algorithmz.movies.moviedetails.domain.interactors.GetMovieDetailsUseCase

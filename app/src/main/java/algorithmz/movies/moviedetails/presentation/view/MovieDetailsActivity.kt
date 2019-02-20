@@ -3,7 +3,7 @@ package algorithmz.movies.moviedetails.presentation.view
 import algorithmz.movies.BuildConfig
 import algorithmz.movies.MovieApp
 import algorithmz.movies.R
-import algorithmz.movies.data.objctes.Movie
+import algorithmz.movies.moviedetails.domain.entities.Movie
 import algorithmz.movies.moviedetails.domain.entities.Trailer
 import algorithmz.movies.moviedetails.presentation.view.adapter.TrailerAdapter
 import algorithmz.movies.moviedetails.presentation.viewmodel.MovieDetailsVM
