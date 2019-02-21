@@ -17,14 +17,15 @@ App uses The Movie Database API.
 This project using  **Kotlin** demonstrate the applying for:
 ```
     1- Clean Architecture.
-    2- MVVM architectural pattern.
-    3- Dependency Injection using Dagger2.
-    4- REST services using Retrofit2.
-    5- Async / Observables using RxJava/ RxAndroid.
-    6- Loading web images with Glide
-    7- LiveData to hold data.
-    8- Realm to create the database
-    9- Parse Json data with Gson
+    2- Android Architecture Components.
+    3- MVVM architectural pattern.
+    4- Dependency Injection using Dagger2.
+    5- REST services using Retrofit2.
+    6- Async / Observables using RxJava/ RxAndroid.
+    7- Loading web images with Glide
+    8- LiveData to hold data.
+    9- Realm to create the database
+    10- Parse Json data with Gson
 ```
 # Presentation layer
 ```
