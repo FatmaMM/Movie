@@ -1,10 +1,8 @@
 # Movie
 # Screenshots
-
-![screenshot_20190221-144708](https://user-images.githubusercontent.com/28901635/53182194-abff1900-3601-11e9-8392-4b79cf281c83.png)
-![screenshot_20190221-144753](https://user-images.githubusercontent.com/28901635/53182195-abff1900-3601-11e9-8f78-d1f646781c1d.png)
-![screenshot_20190221-144737](https://user-images.githubusercontent.com/28901635/53182196-abff1900-3601-11e9-941d-11deef5b2afa.png)
-
+![screenshot_20190221-144737](https://user-images.githubusercontent.com/28901635/53182332-f8e2ef80-3601-11e9-897a-5d62ddd2e0aa.png)
+![screenshot_20190221-144708](https://user-images.githubusercontent.com/28901635/53182334-f8e2ef80-3601-11e9-868e-f07c68c41596.png)
+![screenshot_20190221-144753](https://user-images.githubusercontent.com/28901635/53182336-f97b8600-3601-11e9-9706-280ee1007992.png)
 
 # Screen to App packages and structure
 ![capture](https://user-images.githubusercontent.com/28901635/53181497-524a1f00-3600-11e9-9002-84a40a4ec113.PNG)
