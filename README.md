@@ -21,6 +21,14 @@ This project using  **Kotlin** demonstrate the applying for:
     8- Realm to create the database
     9- Parse Json data with Gson
 ```
+# Presentation layer
+```
+Presentation package is responsible for everything related to showing Movies on the screen.It's include the activities,adapters and ViewModels which handle rendering views and follow MVVM architectural pattern.There is no logic inside them other than UI logic, and this is where all the rendering stuff takes place.
+```
+# Domain layer
+```
+Domain package: Business rules here. all the logic happens in this layer. Regarding the android project,all the interactors (use cases) implementations here as well.The domain layer independent of anything.
+```
 
  
 
