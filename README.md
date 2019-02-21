@@ -9,7 +9,7 @@ Discover Top rated movies and thier details.
 # Getting Started
 App uses The Movie Database API. 
 
-# Screen to App packages and structure
+# Application packages and structure
 ![capture](https://user-images.githubusercontent.com/28901635/53181497-524a1f00-3600-11e9-9002-84a40a4ec113.PNG)
 
 
@@ -43,7 +43,7 @@ Repositories:This package only contains interfaces that the outer layer implemen
 ```
 Data package: all data needed for the application comes from this layer through a repository implementation (the interface is in the domain layer) that uses a Repository to pick movies data.
 ```
-## Dependency injection packages 
+### Dependency injection packages 
 ```
 It's contain all the components and moduals to create Retrofit instance tied to the application lifecycle and available to all our activities  and room database object as well.
 ```
