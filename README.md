@@ -15,5 +15,8 @@ This project using  **Kotlin** demonstrate the applying for:
     7- LiveData to hold data.
     8- Realm to create the database 
 ```
+# Scree to App packages and structure
+![capture](https://user-images.githubusercontent.com/28901635/53181497-524a1f00-3600-11e9-9002-84a40a4ec113.PNG)
+
  
 
