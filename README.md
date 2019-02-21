@@ -43,6 +43,9 @@ Repositories:This package only contains interfaces that the outer layer implemen
 ```
 Data package: all data needed for the application comes from this layer through a repository implementation (the interface is in the domain layer) that uses a Repository to pick movies data.
 ```
-
+# Dependency injection package 
+```
+It's contain all the components and moduals to create Retrofit instance tied to the application lifecycle and available to all our activities  and room database object as well.
+```
  
 
