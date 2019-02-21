@@ -4,12 +4,12 @@
 
 # Project Overview
 This project is demonstrate the usage of:
-<span style="color: green"> 
+...
     1- Android Architecture Components 
     2- MVVM architectural pattern
     3- Using explicit Intents to link between activities in your app.
     4- Using OnClickListeners to add behavior to buttons using Java code.
-     </span>
+...
    
 Android Architecture Components and how this components can be used in an application with a MVVM architectural pattern, Dagger2, RxJava, LiveData And Retrofit2 in Kotlin.
 
