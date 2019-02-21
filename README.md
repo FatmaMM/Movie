@@ -34,15 +34,14 @@ There is no logic inside them other than UI logic, and this is where all the ren
 ```
 # Domain layer
 ```
-Domain package: Business rules here. all the logic happens in this layer.Contains:
-Models (entites): these are your business models that uses to manipulate in business logic.
+Domain package: Business rules here. all the logic happens in this layer:
+Models (entites): these are your business models that uses to manipulate in business logic.Like Movie, Genre, Trailer objects
 Interactors (use cases) implementations here as well, these are the classes which actually contain business logic.
-Repositories:This package only contains interfaces that the outer layer implements.
-These interfaces are used by Interactors to access and store data.
+Repositories:This package only contains interfaces that the outer layer implements.These interfaces are used by Interactors to access and store data.
 ```
 # Data layer
 ```
-Data package: all data needed for the application comes from this layer through a repository implementation (the interface is in the domain layer) that uses a Repository picks different data.
+Data package: all data needed for the application comes from this layer through a repository implementation (the interface is in the domain layer) that uses a Repository to pick movies data.
 ```
 
  
