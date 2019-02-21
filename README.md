@@ -4,7 +4,7 @@
 ![screenshot_20190221-144753](https://user-images.githubusercontent.com/28901635/53171874-98958300-35ec-11e9-8763-275624f3bccc.png)
 
 # Project Overview
-This project using ```json **Kotlin** ``` demonstrate the applying for:
+This project using  **Kotlin** demonstrate the applying for:
 ```
     1- Android Architecture Components.
     2- MVVM architectural pattern.
