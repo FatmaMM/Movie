@@ -1,7 +1,7 @@
 package algorithmz.movies.moviedetails.data.repository
 
-import algorithmz.movies.data.objctes.Movie
 import algorithmz.movies.moviedetails.domain.datarepository.MovieDetailsRepo
+import algorithmz.movies.moviedetails.domain.entities.Movie
 import algorithmz.movies.moviedetails.domain.entities.TrailerResponse
 import io.reactivex.Observable
 import io.reactivex.Single

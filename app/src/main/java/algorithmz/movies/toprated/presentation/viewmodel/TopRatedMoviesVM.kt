@@ -1,5 +1,6 @@
 package algorithmz.movies.toprated.presentation.viewmodel
 
+import algorithmz.movies.SingleLiveEvent
 import algorithmz.movies.toprated.domain.entities.Genre
 import algorithmz.movies.toprated.domain.entities.GenreResult
 import algorithmz.movies.toprated.domain.entities.Movie
@@ -16,10 +17,10 @@ import javax.inject.Inject
 
 
 class TopRatedMoviesVM @Inject constructor(private val topRatedMoviesUseCase: GetTopRatedMoviesUseCase) : ViewModel() {
-    var errorState: MutableLiveData<Throwable> = MutableLiveData()
+    var errorState: SingleLiveEvent<Throwable> = SingleLiveEvent()
     var moviesLiveData: MutableLiveData<ArrayList<Movie>> = MutableLiveData()
     var genresLiveData: MutableLiveData<List<Genre>> = MutableLiveData()
-    var loadState: MutableLiveData<Boolean> = MutableLiveData()
+    var loadState: SingleLiveEvent<Boolean> = SingleLiveEvent()
 
     fun getTopRatedMovies() {
         topRatedMoviesUseCase.getTopRatedMovies()

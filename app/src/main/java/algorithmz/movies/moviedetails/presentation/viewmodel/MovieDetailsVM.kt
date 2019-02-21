@@ -1,5 +1,6 @@
 package algorithmz.movies.moviedetails.presentation.viewmodel
 
+import algorithmz.movies.SingleLiveEvent
 import algorithmz.movies.moviedetails.domain.entities.Movie
 import algorithmz.movies.moviedetails.domain.entities.Trailer
 import algorithmz.movies.moviedetails.domain.entities.TrailerResponse
@@ -14,7 +15,7 @@ import io.reactivex.schedulers.Schedulers
 import javax.inject.Inject
 
 class MovieDetailsVM @Inject constructor(private val movieDetailsUseCase: GetMovieDetailsUseCase) : ViewModel() {
-    var errorState: MutableLiveData<Throwable> = MutableLiveData()
+    var errorState: SingleLiveEvent<Throwable> = SingleLiveEvent()
     var moviesLiveData: MutableLiveData<Movie> = MutableLiveData()
     var tarilsLiveData: MutableLiveData<ArrayList<Trailer>> = MutableLiveData()
 
