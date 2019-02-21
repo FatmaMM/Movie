@@ -12,7 +12,8 @@ This project using  **Kotlin** demonstrate the applying for:
     4- REST services using Retrofit2.
     5- Async / Observables using RxJava/ RxAndroid.
     6- Loading web images with Glide
-    7- LiveData
+    7- LiveData to hold data.
+    8- Realm to create the database 
 ```
  
 
