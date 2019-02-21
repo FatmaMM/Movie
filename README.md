@@ -11,7 +11,7 @@
 # Project Overview
 This project using  **Kotlin** demonstrate the applying for:
 ```
-    1- Android Architecture Components.
+    1- Clean Architecture.
     2- MVVM architectural pattern.
     3- Dependency Injection using Dagger2.
     4- REST services using Retrofit2.
