@@ -9,7 +9,7 @@ Discover Top rated movies and thier details.
 # Getting Started
 App uses The Movie Database API. 
 
-# Application packages and structure
+#### Application packages and structure
 ![capture](https://user-images.githubusercontent.com/28901635/53181497-524a1f00-3600-11e9-9002-84a40a4ec113.PNG)
 
 
