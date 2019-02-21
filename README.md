@@ -18,7 +18,8 @@ This project using  **Kotlin** demonstrate the applying for:
     5- Async / Observables using RxJava/ RxAndroid.
     6- Loading web images with Glide
     7- LiveData to hold data.
-    8- Realm to create the database 
+    8- Realm to create the database
+    9- Parse Json data with Gson
 ```
 
  
