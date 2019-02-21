@@ -24,12 +24,14 @@ This project using  **Kotlin** demonstrate the applying for:
 # Presentation layer
 ```
 Presentation package is responsible for everything related to showing Movies on the screen.
-It's include the activities,adapters and ViewModels which handle rendering views
-.There is no logic inside them other than UI logic, and this is where all the rendering stuff takes place.
+It's include the activities,adapters and ViewModels which handle rendering views.
+There is no logic inside them other than UI logic, and this is where all the rendering stuff takes place.
 ```
 # Domain layer
 ```
-Domain package: Business rules here. all the logic happens in this layer. Regarding the android project,all the interactors (use cases) implementations here as well.The domain layer independent of anything.
+Domain package: Business rules here. all the logic happens in this layer.
+Regarding the android project,all the interactors (use cases) implementations here as well.
+The domain layer independent of anything.
 ```
 
  
