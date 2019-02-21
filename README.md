@@ -34,9 +34,10 @@ There is no logic inside them other than UI logic, and this is where all the ren
 ```
 # Domain layer
 ```
-Domain package: Business rules here. all the logic happens in this layer.
-Regarding the android project,all the interactors (use cases) implementations here as well.
-The domain layer independent of anything.
+Domain package: Business rules here. all the logic happens in this layer.Contains:
+Models (entites): these are your business models that uses to manipulate in business logic.
+Interactors (use cases) implementations here as well, these are the classes which actually contain business logic.
+All the external components use interfaces when connecting to the this layers.
 ```
 
  
