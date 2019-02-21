@@ -1,5 +1,5 @@
 # Movie
-Discover Top rated movies and thier data.
+Discover Top rated movies and thier details.
 
 # Screenshots
 ![screenshot_20190221-144708](https://user-images.githubusercontent.com/28901635/53182334-f8e2ef80-3601-11e9-868e-f07c68c41596.png)
